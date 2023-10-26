@@ -1,6 +1,6 @@
 import requests
 
-from swap_ppl import PARAMS
+PARAMS = {"films": "title", "vehicles": "name", "starships": "name", "species": "name"}
 
 
 def get_id(person):

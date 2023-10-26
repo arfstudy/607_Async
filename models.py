@@ -5,8 +5,8 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm.session import sessionmaker
 
-PG_DB = os.getenv("PG_DB", "people")
-PG_USER = os.getenv("PG_USER", "user")
+PG_DB = os.getenv("PG_DB", "personages")
+PG_USER = os.getenv("PG_USER", "app")
 PG_PASSWORD = os.getenv("PG_PASSWORD", "1234")
 PG_HOST = os.getenv("PG_HOST", "127.0.0.1")
 PG_PORT = os.getenv("PG_PORT", "5431")
